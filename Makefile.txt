@@ -1,0 +1,25 @@
+# Definición de variables
+JFLAGS = -d bin
+SRC = src/*.java
+BIN = bin
+MAIN = GestorDeCatalogo
+
+# Tarea para compilar el proyecto
+compile:
+    mkdir -p $(BIN)
+    javac $(JFLAGS) $(SRC)
+
+# Tarea para generar el archivo .jar
+jar: compile
+    jar cvfm gestor-catalogo.jar MANIFEST.MF -C $(BIN) .
+
+# Tarea para generar la documentación Javadoc
+javadoc:
+    javadoc -d doc src/*.java
+
+# Ejecutar todas las tareas
+all: compile jar javadoc
+
+# Limpiar los archivos generados
+clean:
+    rm -rf $(BIN) gestor-catalogo.jar doc

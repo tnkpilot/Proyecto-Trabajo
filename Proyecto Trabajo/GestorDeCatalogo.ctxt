@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GestorDeCatalogo
+comment1.params=
+comment1.target=GestorDeCatalogo()
+comment2.params=
+comment2.target=void\ iniciar()
+comment3.params=
+comment3.target=void\ altaProducto()
+comment4.params=
+comment4.target=void\ bajaProducto()
+comment5.params=
+comment5.target=void\ modificarProducto()
+comment6.params=
+comment6.target=void\ guardarProductos()
+comment7.params=
+comment7.target=void\ cargarProductos()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Catalogo
+comment1.params=
+comment1.target=Catalogo()
+comment2.params=producto
+comment2.target=void\ agregarProducto(Producto)
+comment3.params=nombre
+comment3.target=void\ eliminarProducto(java.lang.String)
+comment4.params=nombre\ nuevoPrecio\ nuevaCantidad
+comment4.target=void\ modificarProducto(java.lang.String,\ double,\ int)
+comment5.params=
+comment5.target=void\ listarProductos()
+comment6.params=nombreArchivo
+comment6.target=void\ guardarProductosEnArchivo(java.lang.String)
+comment7.params=nombreArchivo
+comment7.target=void\ cargarProductosDesdeArchivo(java.lang.String)
+numComments=8
